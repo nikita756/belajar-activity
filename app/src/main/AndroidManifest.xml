@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PraktikumFintech">
-        <activity android:name=".DataActivity"></activity>
+        <activity android:name=".welcomeActivity"></activity>
+        <activity android:name="sendData.ReceiveActivity" />
+        <activity android:name="sendData.SendActivity" />
+        <activity android:name=".DataActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
